@@ -14,7 +14,6 @@
               <div> ${responseJson[i].title}</div>`);
             };
         })
-
         .fail(function () {
         });
     $('h1').addClass("animation-onload-h1")
